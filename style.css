@@ -658,12 +658,18 @@ body::before {
 
 /* thumbnail */
 .mod-thumb {
-  width: 100%; aspect-ratio: 16/9;
+  width: 100%;
   background: var(--bg3);
   position: relative; overflow: hidden;
 }
-.mod-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
-.mod-card:hover .mod-thumb img { transform: scale(1.06); }
+.mod-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  transition: transform .5s;
+}
+.mod-card:hover .mod-thumb img { transform: scale(1.03); }
 .mod-thumb-ph {
   position: absolute; inset: 0;
   display: flex; flex-direction: column;
