@@ -26,6 +26,15 @@ const MODS = [
     ukuran:    "2.65 MB",
     badge:     "badge-update",
   },
+  {
+    nama:      "SKIN YBN NAHMIR",
+    kategori:  "Skin",
+    deskripsi: "C? Ddngexdy",
+    foto:      "foto/dxddd.png",
+    file:      "skin/Skin Bagus Dxd 3.7z",
+    ukuran:    "2.67 MB",
+    badge:     "badge-new",
+  },
 ];
 
 function loadMods() {
